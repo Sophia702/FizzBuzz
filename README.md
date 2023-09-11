@@ -233,7 +233,7 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `src` and select `New —> Java Class`.~~~~ Name it `Main`. This will create a `Main.java` file.
+- [X] Right-click on `src` and select `New —> Java Class`.~~~~ Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
@@ -248,7 +248,7 @@ It turns out that IntelliJ can help us out with this too!
 
 ### Task 3.1: Changing access modifiers using IntelliJ
 
-- [ ] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
+- [X] In your main method in `Main.java`, try calling your private helper — something like `FizzBuzz.doFizzBuzz(5);`.
 
 You'll see that IntelliJ flags that you are trying to access something that is private. Unlike Python,
 Java won't even let you run the code when it detects this kind of violation of an access modifier (it is an
